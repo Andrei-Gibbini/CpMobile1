@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { 
-  SafeAreaView, 
   View, 
   Text, 
   TextInput, 
@@ -8,6 +7,7 @@ import {
   StyleSheet, 
   ScrollView 
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function App() {
   const [nome, setNome] = useState('');
